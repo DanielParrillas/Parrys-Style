@@ -1,0 +1,20 @@
+// todo================  CARD ================
+
+.card{
+    display: block;
+    padding: var(--space-m);
+    border: var(--base-border-thickness) solid #ddd;
+    box-shadow: var(--base-box-shadow);
+
+    h1 {
+        font-size: var(--size-l);
+        padding-bottom: var(--space-s);
+    }   
+    p {
+        font-size: var(--size-s);
+
+        a{
+            text-decoration: underline;
+        }
+    }
+}
