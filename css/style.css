@@ -10,7 +10,9 @@
   --color-dark-variant: #84878C;
   --color-light-variant: #D9D9D9;
   --color-text-1: #2E3640;
+  --color-text-2: #fff;
   --color-background-1: #f6f6f9;
+  --color-background-1: #303845;
   --border-1: 1px solid var(--color-light);
   --border-radius-1: 0.3rem;
   --border-radius-2: 0.5rem;
