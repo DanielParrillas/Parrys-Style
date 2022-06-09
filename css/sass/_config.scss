@@ -1,31 +1,34 @@
 // todo================  CSS VARIABLES ================
-    //Puedes mofificar los valores de estas variables CSS.
+//Puedes mofificar los valores de estas variables CSS.
 
-// *================ Root Variables ================
+// *================ Root Conts & Variables ================
 :root {
-    // *-------- Colors Variables --------
+    // *-------- Colors Const --------
     --color-primary: #326dee;
     --color-secondary: #1ac888;
     --color-danger: #d32752;
     --color-success: #3BACD9;
     --color-warning: #f6c31c;
-    --color-white: #fff;
-    --color-info-dark: #84878C;
-    --color-info-light: #D9D9D9;
     --color-dark: #2E3640;
-    --color-light: rgba(46, 54, 64, 0.18);
-    --color-primary-variant: #F27D16;
-    --color-dark-variant: #677483;
-    --color-background: #f6f6f9;
+    --color-light: #fff;
 
-    // *-------- Borders Variables --------
+    // *-------- Colors Variants Const --------
+    --color-dark-variant: #84878C;
+    --color-light-variant: #D9D9D9;
+
+    // *-------- Colors Variables --------
+    --color-text-1: #2E3640;
+
+    // *-------- Background Colors Variables --------
+    --color-background-1: #f6f6f9;
+
+    // *-------- Borders --------
     --border-1: 1px solid var(--color-light);
-    --card-border-radius: 1rem;
     --border-radius-1: 0.3rem;
     --border-radius-2: 0.5rem;
     --border-radius-3: 1rem;
 
-    // *-------- Padding & Margin Variables --------
+    // *-------- Padding & Margin --------
     --space-xs: 0.5rem;
     --space-s: 0.75rem;
     --space-m: 1rem;
@@ -43,19 +46,19 @@
     --size-xxl: 2rem;
     --size-g: 3rem;
 
-    // *-------- Sizes Variables --------
-    --base-border-thickness: 1px;
-    --base-border-radius: 20px;
-
     // *-------- Shadows --------
-    --base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+    --base-box-shadow-1: 1px 3px 5px rgba(0, 0, 0, 0.1);
 
     // ================ END OF ROOT VARIABLES ================
 }
 
 //* ================ Dark Theme Variables ================
-.dark-theme-variables {
-    --color-background: #f6f6f9;
+.dark-theme {
+    // *-------- Colors Variables --------
+    --color-text-1: #fff;
+
+    // *-------- Background Colors Variables --------
+    --color-background-1: #2E3640;
     // ================ END OF DARK THEME VARIABLES ================
 }
 

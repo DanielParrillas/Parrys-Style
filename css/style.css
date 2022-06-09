@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --color-primary: #326dee;
+  --color-secondary: #1ac888;
+  --color-danger: #d32752;
+  --color-success: #3BACD9;
+  --color-warning: #f6c31c;
+  --color-dark: #2E3640;
+  --color-light: #fff;
+  --color-dark-variant: #84878C;
+  --color-light-variant: #D9D9D9;
+  --color-text-1: #2E3640;
+  --color-background-1: #f6f6f9;
+  --border-1: 1px solid var(--color-light);
+  --border-radius-1: 0.3rem;
+  --border-radius-2: 0.5rem;
+  --border-radius-3: 1rem;
+  --space-xs: 0.5rem;
+  --space-s: 0.75rem;
+  --space-m: 1rem;
+  --space-l: 1.3rem;
+  --space-xl: 1.7rem;
+  --space-xxl: 2rem;
+  --space-g: 3rem;
+  --size-xs: 0.5rem;
+  --size-s: 0.75rem;
+  --size-m: 1rem;
+  --size-l: 1.3rem;
+  --size-xl: 1.7rem;
+  --size-xxl: 2rem;
+  --size-g: 3rem;
+  --base-box-shadow-1: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme {
+  --color-text-1: #fff;
+  --color-background-1: #2E3640;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  display: block;
+  padding: var(--space-m);
+  border: var(--base-border-thickness) solid #ddd;
+  -webkit-box-shadow: var(--base-box-shadow);
+          box-shadow: var(--base-box-shadow);
+}
+
+.card h1 {
+  font-size: var(--size-l);
+  padding-bottom: var(--space-s);
+}
+
+.card p {
+  font-size: var(--size-s);
+}
+
+.card p a {
+  text-decoration: underline;
+}
