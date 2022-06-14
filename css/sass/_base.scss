@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  // background-color: $color-test-2;
   font-family: poppins, sans-serif;
   // ?overflow-x: hidden;
   // ?background: $color-background;
@@ -28,4 +29,13 @@ body {
 
 img {
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-warning);
 }
