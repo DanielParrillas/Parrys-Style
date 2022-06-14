@@ -10,12 +10,13 @@
 @import 'sass/base';
 @import 'sass/media-queries';
 @import 'sass/classes';
+@import 'sass/display';
 
 // *-------- Components --------
 @import 'sass/components/aside';
 @import 'sass/components/card';
-@import 'sass/components/components';
 @import 'sass/components/form';
 @import 'sass/components/nav';
+@import 'sass/components/main';
 
 // *-------- Added --------

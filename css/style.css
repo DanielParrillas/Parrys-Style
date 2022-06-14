@@ -31,6 +31,9 @@
   --size-xl: 1.7rem;
   --size-xxl: 2rem;
   --size-g: 3rem;
+  --aside-width-extended: 7rem;
+  --aside-width-redused: 7rem;
+  --nav-height: 3.2rem;
   --base-box-shadow-1: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -98,11 +101,32 @@ a {
   font-weight: 300;
 }
 
+.container-principal {
+  margin-left: var(--aside-width-extended);
+}
+
+.container-principal aside {
+  position: fixed;
+  -webkit-transform: translate(calc(var(--aside-width-extended)*-1), 0);
+          transform: translate(calc(var(--aside-width-extended)*-1), 0);
+}
+
+.container-public {
+  margin-top: var(--nav-height);
+}
+
+.container-public nav {
+  position: fixed;
+  width: 100%;
+  -webkit-transform: translate(0, calc(var(--nav-height)*-1));
+          transform: translate(0, calc(var(--nav-height)*-1));
+}
+
 aside {
   background-color: var(--color-dark);
   color: var(--color-light);
   height: 100vh;
-  width: 7rem;
+  width: var(--aside-width-extended);
   padding-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,7 +243,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 3.2rem;
+  height: var(--nav-height);
   color: var(--color-light);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -274,4 +298,8 @@ nav .right h2 {
   color: var(--color-light);
   font-weight: 200;
   font-size: 1rem;
+}
+
+main {
+  background-color: pink;
 }

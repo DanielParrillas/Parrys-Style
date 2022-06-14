@@ -1,0 +1,22 @@
+// todo================  CONTAINER ================
+
+.container-principal {
+    margin-left: var(--aside-width-extended);
+
+    aside {
+        position: fixed;
+        transform: translate(calc(var(--aside-width-extended)*-1), 0);
+    }
+
+    main {}
+}
+
+.container-public {
+    margin-top: var(--nav-height);
+
+    nav {
+        position: fixed;
+        width: 100%;
+        transform: translate(0, calc(var(--nav-height)*-1));
+    }
+}
