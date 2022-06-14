@@ -16,6 +16,7 @@ nav {
         font-weight: 200;
 
         &:hover {
+            transition: 1s;
             text-decoration: underline;
         }
     }
