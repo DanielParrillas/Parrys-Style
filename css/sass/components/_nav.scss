@@ -1,7 +1,7 @@
 // todo================  NAVBAR ================
 
 nav {
-    background-color: var(--color-dark);
+    background-color: var(--color-primary);
     display: flex;
     align-items: center;
     height: var(--nav-height);
@@ -37,7 +37,7 @@ nav {
 
         ul {
             display: flex;
-            gap: 1rem;
+            gap: 2rem;
         }
     }
 
