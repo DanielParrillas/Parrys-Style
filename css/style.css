@@ -13,7 +13,7 @@
   --color-text-2: #fff;
   --color-background-1: #303845;
   --color-background-2: #f6f6f9;
-  --border-1: 1px solid var(--color-light);
+  --border-1: 1px solid var(--color-light-variant);
   --border-radius-1: 0.3rem;
   --border-radius-2: 0.5rem;
   --border-radius-3: 1rem;
@@ -126,6 +126,25 @@ a {
   width: 100%;
   -webkit-transform: translate(0, calc(var(--nav-height)*-1));
           transform: translate(0, calc(var(--nav-height)*-1));
+}
+
+.container-grid {
+  width: 100%;
+  gap: 2rem;
+}
+
+form .container-grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'grid-area-1 grid-area-2';
+}
+
+.container-grid .grid-area-1 {
+  grid-area: 'grid-area-1';
+}
+
+.container-grid .grid-area-2 {
+  grid-area: 'grid-area-2';
 }
 
 aside {
@@ -246,6 +265,42 @@ aside .botton {
   text-decoration: underline;
 }
 
+form {
+  border: var(--border-1);
+  border-radius: var(--border-radius-3);
+  padding: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+form h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form .form-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.3rem;
+}
+
 nav {
   background-color: var(--color-primary);
   display: -webkit-box;
@@ -309,4 +364,33 @@ nav .right h2 {
   color: var(--color-light);
   font-weight: 200;
   font-size: 1rem;
+}
+
+table {
+  width: 100%;
+  border-radius: var(--border-1);
+  padding: 1rem;
+  text-align: left;
+}
+
+table:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+table th {
+  font-weight: 600;
+}
+
+table tbody td {
+  height: 2.8rem;
+  border-bottom: var(--border-1);
+}
+
+table tbody tr {
+  font-weight: 400;
+}
+
+table tbody tr:last-child td {
+  border: none;
 }

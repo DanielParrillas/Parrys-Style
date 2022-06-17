@@ -20,3 +20,22 @@
         transform: translate(0, calc(var(--nav-height)*-1));
     }
 }
+
+.container-grid {
+    width: 100%;
+    gap: 2rem;
+
+    form & {
+        display: grid;
+        grid-template-areas: 'grid-area-1 grid-area-2';
+
+    }
+
+    .grid-area-1 {
+        grid-area: 'grid-area-1';
+    }
+
+    .grid-area-2 {
+        grid-area: 'grid-area-2';
+    }
+}
