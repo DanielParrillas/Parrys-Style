@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-radius: var(--border-1);
+    padding: 1rem;
+    text-align: left;
+
+    &:hover {
+        box-shadow: none;
+    }
+
+    th {
+        font-weight: 600;
+    }
+
+    tbody {
+        td {
+            height: 2.8rem;
+            border-bottom: var(--border-1);
+
+        }
+
+        tr {
+            font-weight: 400;
+
+            &:last-child td {
+                border: none;
+            }
+        }
+    }
+}

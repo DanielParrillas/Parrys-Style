@@ -7,14 +7,16 @@
 
 // *-------- Main Imports --------
 @import 'sass/config';
-@import 'sass/base';
+@import 'sass/default';
 @import 'sass/media-queries';
 
 // *-------- Components --------
 @import 'sass/components/aside';
-@import 'sass/components/card';
 @import 'sass/components/components';
 @import 'sass/components/form';
 @import 'sass/components/nav';
+@import 'sass/components/main';
+@import 'sass/components/table';
 
-// *-------- Added --------
+// *-------- Classes --------
+@import 'sass/classes/card';

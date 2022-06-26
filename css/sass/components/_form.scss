@@ -1,3 +1,30 @@
-// todo================  ASIDE ================
+// todo================  FORM ================
 
-form {}
+form {
+    border: var(--border-1);
+    border-radius: var(--border-radius-3);
+    padding: 1.3rem;
+    // background-color: $color-test-1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    h1 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .form-group {
+        // background-color: $color-test-2;
+        display: flex;
+        gap: 0.4rem;
+        flex-direction: column;
+    }
+
+    .form-element {
+        // background-color: $color-test-3;
+        display: flex;
+        gap: 0.3rem;
+    }
+}

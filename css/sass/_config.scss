@@ -3,6 +3,7 @@
 
 // *================ Root Conts & Variables ================
 :root {
+    // !Agregar los colores Hover, Active
     // *-------- Colors Const --------
     --color-primary: #326dee;
     --color-secondary: #1ac888;
@@ -18,24 +19,17 @@
 
     // *-------- Colors Variables --------
     --color-text-1: #2E3640;
+    --color-text-2: #fff;
 
     // *-------- Background Colors Variables --------
-    --color-background-1: #f6f6f9;
+    --color-background-1: #303845;
+    --color-background-2: #f6f6f9;
 
     // *-------- Borders --------
     --border-1: 1px solid var(--color-light);
     --border-radius-1: 0.3rem;
     --border-radius-2: 0.5rem;
     --border-radius-3: 1rem;
-
-    // *-------- Padding & Margin --------
-    --space-xs: 0.5rem;
-    --space-s: 0.75rem;
-    --space-m: 1rem;
-    --space-l: 1.3rem;
-    --space-xl: 1.7rem;
-    --space-xxl: 2rem;
-    --space-g: 3rem;
 
     // *-------- Sizes Variables --------
     --size-xs: 0.5rem;
@@ -45,6 +39,11 @@
     --size-xl: 1.7rem;
     --size-xxl: 2rem;
     --size-g: 3rem;
+
+    // *-------- Sizes Elementes --------
+    --aside-width-extended: 7rem;
+    --aside-width-redused: 7rem;
+    --nav-height: 3.2rem;
 
     // *-------- Shadows --------
     --base-box-shadow-1: 1px 3px 5px rgba(0, 0, 0, 0.1);
@@ -71,4 +70,8 @@ $color-test-1: pink;
 $color-test-2: coral;
 $color-test-3: olive;
 $color-test-4: BlueViolet;
+
+// *-------- Border Variables --------
+//Estos colores son usados para testear tamaños por lo tanto no se incluyen en el diseño final
+$border-test-1: 2px solid pink;
 // ================ END OF SASS VARIABLES ================
