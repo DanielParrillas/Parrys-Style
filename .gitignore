@@ -1,4 +1,6 @@
 # *-------- CARPETAS IGNORADAS --------
 
+#Modulos instalados
+node_modules
 # configuracion de vscode
 .vscode

@@ -6,17 +6,17 @@
 // todo================ IMPORTS ================
 
 // *-------- Main Imports --------
-@import 'sass/config';
-@import 'sass/default';
-@import 'sass/media-queries';
+@import 'config';
+@import 'default';
+@import 'media-queries';
 
 // *-------- Components --------
-@import 'sass/components/aside';
-@import 'sass/components/components';
-@import 'sass/components/form';
-@import 'sass/components/nav';
-@import 'sass/components/main';
-@import 'sass/components/table';
+@import 'components/aside';
+@import 'components/components';
+@import 'components/form';
+@import 'components/nav';
+@import 'components/main';
+@import 'components/table';
 
 // *-------- Classes --------
-@import 'sass/classes/card';
+@import 'classes/card';
